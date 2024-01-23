@@ -32,3 +32,6 @@ For the Mqtt-clients we use the paho mqtt client library for python, which provi
 ```
 sudo apt-get install python3-paho-mqtt
 ```
+
+## Raspberry Pi Supersonic Sensor
+The Raspberry Pi is connected to a supersonic sensor to gather sample data for the MQTT connection. As the main learning goal is not the implementation of the sensor but the implementation of MQTT, the implementation is not explained in full detail here. The calculation of the distance and the GPIO-ports connected to the sensor are implemented in the script mqtt_measurement_script.py
